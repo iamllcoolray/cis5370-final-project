@@ -11,7 +11,7 @@
 ### Running the Project
 
 ```bash
-uv add [list libraries]
+uv add <list libraries>
 ```
 
 ```bash
@@ -24,7 +24,7 @@ uv run main.py
 
 ## Project 1 - Intrusion Detection for Industrial Control Systems
 
-**Goal**: Industrial Control Systems (ICS) operate critical infrastructure such as power grids, water treatment
+**Goal:** Industrial Control Systems (ICS) operate critical infrastructure such as power grids, water treatment
 facilities, and manufacturing plants. These systems rely on specialized communication protocols and deterministic control processes, which makes intrusion detection particularly challenging.
 
 This project aims to design and evaluate an anomaly detection system for ICS environments using publicly available datasets and techniques inspired by recent research. You will compare different detection strategies and analyze how well they detect abnormal behavior while minimizing false alarms.
