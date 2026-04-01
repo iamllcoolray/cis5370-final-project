@@ -42,7 +42,7 @@ uv add numpy pandas scikit-learn matplotlib seaborn torch torchvision jupyter ip
 
 ### Dataset
 
-- [ ] Register and download the SWaT or WADI dataset (iTrust, Singapore)
+- [x] Register and download the SWaT or WADI dataset (iTrust, Singapore)
 - [ ] Explore and understand the dataset structure (sensor readings, labels, attack periods)
 - [ ] Clean data (handle missing values, outliers)
 - [ ] Normalize/scale features
@@ -79,13 +79,13 @@ uv add numpy pandas scikit-learn matplotlib seaborn torch torchvision jupyter ip
 - [ ] Add comments and docstrings throughout
 - [ ] Write a README with setup and run instructions
 - [ ] Make sure experiments are fully reproducible (set random seeds, document dependencies)
-- [ ] Create a `requirements.txt` or equivalent environment file
-- [ ] Set up GitHub repo and commit regularly from the start
-- [ ] Ensure repo is public and accessible from due date through 1 week after
+- [x] Create a `requirements.txt` or equivalent environment file
+- [x] Set up GitHub repo and commit regularly from the start
+- [x] Ensure repo is public and accessible from due date through 1 week after
 
 ### Technical Report (ACM Format, 6–10 pages, submit as PDF)
 
-- [ ] Download ACM proceedings template (Word or LaTeX/Overleaf)
+- [x] Download ACM proceedings template (Word or LaTeX/Overleaf)
 - [ ] Write Abstract
 - [ ] Write Introduction / Motivation
 - [ ] Write Related Work section (cite all 4 example papers at minimum)
