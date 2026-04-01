@@ -2,24 +2,40 @@
 
 ## Set Up
 
-### Tools and Dependencies
+### Verisoning and Tools
 
 - Python v3.12
 - [uv](https://docs.astral.sh/uv/)
   - An extremely fast Python package and project manager, written in Rust.
 
-### Running the Project
+### Initial Run
 
-```bash
-uv add numpy pandas scikit-learn matplotlib seaborn torch torchvision jupyter ipykernel tqdm scipy
-```
-
+**Ensure that the Dependencies are Installed**
 ```bash
 uv sync
 ```
 
+**Test Run**
 ```bash
 uv run main.py
+```
+
+### Project file
+
+
+### Dependencies
+They should have been added after the initial run using `uv sync`.
+
+**If they have NOT been added**
+
+```bash
+uv pip install -r requirements.txt
+```
+
+**OR**
+
+```bash
+uv add numpy pandas scikit-learn matplotlib seaborn torch torchvision jupyter ipykernel tqdm scipy plotly shap xgboost
 ```
 
 ## TODO
