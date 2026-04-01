@@ -1,4 +1,4 @@
-# CIS 5370 - Final Project`
+# CIS 5370 - Final Project
 
 ## Set Up
 
