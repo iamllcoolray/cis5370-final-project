@@ -11,7 +11,7 @@
 ### Running the Project
 
 ```bash
-uv add <list libraries>
+uv add numpy pandas scikit-learn matplotlib seaborn torch torchvision jupyter ipykernel tqdm scipy
 ```
 
 ```bash
