@@ -7,23 +7,26 @@
 - Python v3.12
 - [uv](https://docs.astral.sh/uv/)
   - An extremely fast Python package and project manager, written in Rust.
+- Dataset: [SWaT.A6_Dec 2019](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/) (how we renamed the folder: SWaT_A6_Dec_2019)
 
 ### Initial Run
 
 **Ensure that the Dependencies are Installed**
+
 ```bash
 uv sync
 ```
 
 **Test Run**
+
 ```bash
 uv run main.py
 ```
 
 ### Project file
 
-
 ### Dependencies
+
 They should have been added after the initial run using `uv sync`.
 
 **If they have NOT been added**
@@ -38,11 +41,27 @@ uv pip install -r requirements.txt
 uv add numpy pandas scikit-learn matplotlib seaborn torch torchvision jupyter ipykernel tqdm scipy plotly shap xgboost
 ```
 
+## Dataset Preperation
+
+### SWaT_A6_Dec_2019/csv
+
+Is already a `.xlsx` file no file conversion needed.
+
+### SWaT_A6_Dec_2019/pcap
+
+These files are `.pcap` files and need to be converted. In the event the file does noend in `.pcap`, you will need to add the file extension.
+
+#### `.pcap` Conversion to `.csv`
+
+```bash
+Steps coming soon
+```
+
 ## TODO
 
 ### Dataset
 
-- [x] Register and download the SWaT or WADI dataset (iTrust, Singapore)
+- [X] Register and download the SWaT or WADI dataset (iTrust, Singapore)
 - [ ] Explore and understand the dataset structure (sensor readings, labels, attack periods)
 - [ ] Clean data (handle missing values, outliers)
 - [ ] Normalize/scale features
@@ -79,13 +98,13 @@ uv add numpy pandas scikit-learn matplotlib seaborn torch torchvision jupyter ip
 - [ ] Add comments and docstrings throughout
 - [ ] Write a README with setup and run instructions
 - [ ] Make sure experiments are fully reproducible (set random seeds, document dependencies)
-- [x] Create a `requirements.txt` or equivalent environment file
-- [x] Set up GitHub repo and commit regularly from the start
-- [x] Ensure repo is public and accessible from due date through 1 week after
+- [X] Create a `requirements.txt` or equivalent environment file
+- [X] Set up GitHub repo and commit regularly from the start
+- [X] Ensure repo is public and accessible from due date through 1 week after
 
 ### Technical Report (ACM Format, 6–10 pages, submit as PDF)
 
-- [x] Download ACM proceedings template (Word or LaTeX/Overleaf)
+- [X] Download ACM proceedings template (Word or LaTeX/Overleaf)
 - [ ] Write Abstract
 - [ ] Write Introduction / Motivation
 - [ ] Write Related Work section (cite all 4 example papers at minimum)
@@ -189,8 +208,8 @@ The presentation should highlight the **design decisions**, **evaluation results
 
 ## Grading Rubric
 
-| Category             | Points | Excellent (9-10)                                                                                                                  | Good (7-8)                                                                       | Fair (5-6)                                                                                | Poor (0-4)                                                              |
-| -------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Category                   | Points | Excellent (9-10)                                                                                                                  | Good (7-8)                                                                       | Fair (5-6)                                                                                | Poor (0-4)                                                              |
+| -------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | **Coding**           | 10     | Fully functional system with strong technical depth. Code is well-structured, documented, and experiments are reproducible.       | Major components implemented and mostly functional with minor issues.            | Partial implementation; several components incomplete or limited experimentation.         | Little or no working implementation; code unclear or missing.           |
 | **Technical Report** | 10     | Clear motivation, methodology, and system design. Strong evaluation and analysis. Well written with proper references.            | Problem and approach described clearly; evaluation present but somewhat limited. | Basic explanation of the project with limited evaluation or weak analysis.                | Poorly written or missing sections; little or no meaningful evaluation. |
 | **Presentation**     | 10     | Clear explanation of problem, approach, and results. Well-designed slides and confident delivery. Questions answered effectively. | Understandable presentation with minor clarity issues; slides mostly clear.      | Key ideas not clearly explained; slides poorly organized; limited responses to questions. | Presentation lacks structure; difficult to understand the project.      |
