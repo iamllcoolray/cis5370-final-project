@@ -53,9 +53,7 @@ These files are `.pcap` files and need to be converted. In the event the file do
 
 #### `.pcap` Conversion to `.csv`
 
-```bash
-Steps coming soon
-```
+Uncomment the code section under the comment "Converts all pcaps in a directory into CSV files with network flows", and run that section. This will take a few minutes at least. It is recommended to recomment this section once you have the converted .csv's in order to save time if you need to run the cell again. The converted files will be located in the directory SWaT_A6_Dec_2019/csv_from_pcap.
 
 ## TODO
 
