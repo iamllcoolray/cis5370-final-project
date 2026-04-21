@@ -38,7 +38,7 @@ uv pip install -r requirements.txt
 **OR**
 
 ```bash
-uv add numpy pandas scikit-learn matplotlib seaborn torch torchvision jupyter ipykernel tqdm scipy plotly shap xgboost
+uv add numpy pandas scikit-learn matplotlib seaborn torch torchvision jupyter ipykernel tqdm scipy plotly shap xgboost nfstream
 ```
 
 ## Dataset Preperation
